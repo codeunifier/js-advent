@@ -72,6 +72,10 @@ Navigate to [http://localhost:8910/posts/new](http://localhost:8910/posts/new), 
 
 Did we just create a post in the database? Yup! With `yarn rw generate scaffold <model>`, Redwood created all the pages, components, and services necessary to perform all CRUD actions on our posts table.
 
+### Starting the postgresql server
+
+
+
 ## Frontend first with Storybook
 
 Don't know what your data models look like? That's more than ok—Redwood integrates Storybook so that you can work on design without worrying about data. Mockup, build, and verify your React components, even in complete isolation from the backend:
